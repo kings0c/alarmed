@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;   
+}
+
+body {
+    
+}
+
+#alarm-clock-wrapper {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#alarm-clock {
+    color: #ef5350;
+    font-family: 'Droid Sans Mono', ;
+    font-size: 4rem;
+    display: inline-block;
+}
+
+.clock-digits {
+    display: inline-block;
+}
+
+#alarm-actions-wrapper {
+    text-align: center;
+}
+
+#alarm-actions {
+    padding-bottom: 14px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+    text-align: center;
+}
+
+footer #website-link:hover {
+    color: #bdbdbd !important;    /* grey lighten-1 */
+}
