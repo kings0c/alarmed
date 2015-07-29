@@ -37,6 +37,7 @@ function AlarmClock() {
 
         if (_this.checkAlarms()) {
             _this.soundAlarm();
+            _this.removeAlarm(_this.hours, _this.minutes, _this.seconds);
         }
     };
 
@@ -55,6 +56,7 @@ function AlarmClock() {
         enableRemoveAlarmButtons();
     };
 
+    
     this.checkAlarms = function () {
         for (var i in _this.alarms) {
             if (_this.alarms[i].hour == _this.hours && _this.alarms[i].minute == _this.minutes && _this.alarms[i].second == _this.seconds) {
